@@ -1,0 +1,565 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPZuc5hRsXC3lQbknJQxWDW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/florise8/Draw.io-project-1/blob/main/MY%20FIRST%20PYTHON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yRgcCEFVnDTy"
+      },
+      "outputs": [],
+      "source": [
+        "## THIS IS MY FIRST PYTHON CLASS"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##THIS IS ME"
+      ],
+      "metadata": {
+        "id": "dINKgNTjnmmp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('My Name is Florence Dube I am a student of Data Science')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HlEnpbeDn_Om",
+        "outputId": "0e48d650-b60c-42e4-fc22-d4fe8b428d46"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My Name is Florence Dube I am a student of Data Science\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = 'Florence Dube'\n",
+        "age = 20\n",
+        "job = 'Data Science'\n",
+        "print(name)\n",
+        "print(age)\n",
+        "print(job)\n",
+        "print(f'my name is {name} I am {age} years old and my job {job} ')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rlhDHfU9pR9U",
+        "outputId": "e40f8635-5d3d-418c-950c-03a5cc8127d2"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Florence Dube\n",
+            "20\n",
+            "Data Science\n",
+            "my name is Florence Dube I am 20 years old and my job Data Science \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input('Please enter your name:')\n",
+        "age = int(input('Please enter your age:'))\n",
+        "job= input('please enter your job')\n",
+        "\n",
+        "print(f'my name is {name} I am {age} years old and my job is {job} ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HxTiWLDrtG4B",
+        "outputId": "c9a72c9c-bd27-4cac-bba9-f86ca225e895"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter your name:Dave Egg\n",
+            "Please enter your age:18\n",
+            "please enter your jobDoctor\n",
+            "my name is Dave Egg I am 18 years old and my job is Doctor \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Welcome to Dube Scholarship Kindly fill out this information')\n",
+        "\n",
+        "name = input('Please enter your Name')\n",
+        "Course = (input('Please enter your Course'))\n",
+        "School = input('Which of the schools do you attend')\n",
+        "School_Fees = float(input('How much is your school fees'))\n",
+        "\n",
+        "print(f'my name is {name} I study {Course} at {School} my total school fees for this term is {School_Fees} ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ogyNfBtkuxjj",
+        "outputId": "9dddc9ec-17b3-4990-a707-fa58884db6df"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to Dube Scholarship Kindly fill out this information\n",
+            "Please enter your NameJohn Doe\n",
+            "Please enter your CourseData Science\n",
+            "Which of the schools do you attendIvy Academy \n",
+            "How much is your school fees120000\n",
+            "my name is John Doe I study Data Science at Ivy Academy  my total school fees this term is 120000.0 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Arithmetic Operators\n",
+        "\n",
+        "* Addition ➕\n",
+        "* Subtraction  ➖\n",
+        "* Multiplication  *\n",
+        "* Division /\n",
+        "* Modulus %\n",
+        "* Exponentiation **\n",
+        "* Floor Division //item\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "3H0Xaoqe0vMU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# variables used\n",
+        "x = 5\n",
+        "y = 3"
+      ],
+      "metadata": {
+        "id": "9IGhlj_60nTk"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Addition Illustration\n",
+        "result = x + y\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1vaREqSj3YE2",
+        "outputId": "f32f9432-310b-474a-d398-17935457c6f1"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Subtraction Illustration\n",
+        "result = x - y\n",
+        "print(result)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XFYrYCfj3vk3",
+        "outputId": "bb4a0e65-dd45-41bc-e929-41bc1135e87c"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Multiplication Illustration\n",
+        "result = x * y\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dL-d5HMi4Bjf",
+        "outputId": "5ad4dda5-b668-4fca-88db-b91a9acb1364"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Division Illustration\n",
+        "result = x / y\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0SWdH_Sm4NaI",
+        "outputId": "3a02a579-c712-4741-93f6-02b935cf16a5"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1.6666666666666667\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Expontiation Illustration\n",
+        "result = x ** y\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CtT5bIrE4VTq",
+        "outputId": "ddfd1917-6d07-4926-db22-a16576bfc555"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "125\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Addition\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum + secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3FmCuKkM4iX8",
+        "outputId": "0aadfd84-2cb4-426c-defd-c8014000f776"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number6\n",
+            "enter a number10\n",
+            "16\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Subtraction\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum - secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "O7qLQf5g52Fs",
+        "outputId": "e2b05704-fd76-42d1-cf19-e2cec02ad929"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number90\n",
+            "enter a number20\n",
+            "70\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Multiplication\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum * secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EZwi1U0n5_lD",
+        "outputId": "f5d07f7a-ceec-45f7-e934-109a52e70f0f"
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number20\n",
+            "enter a number30\n",
+            "600\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Division\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum / secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kyYL24vz6Oh7",
+        "outputId": "74045f3a-efdb-491e-92ec-b44ed57f4459"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number50\n",
+            "enter a number20\n",
+            "2.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Modulus\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum % secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8qGviqmZ6Xvj",
+        "outputId": "2a66d3ed-657e-4b8e-946b-631cd3761147"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number10\n",
+            "enter a number15\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Exponentiation\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum ** secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Gg3VOTED6iPx",
+        "outputId": "30ff8034-5322-4085-85a2-1e1f6a8b64f8"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number50\n",
+            "enter a number30\n",
+            "931322574615478515625000000000000000000000000000000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using input for Floor Division\n",
+        "firstnum = int(input('enter a number'))\n",
+        "secondnum = int(input('enter a number'))\n",
+        "result = firstnum // secondnum\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tLms74eG6zV3",
+        "outputId": "03bf4fb7-7a93-46e9-cfc7-c8218fbbf5db"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number100\n",
+            "enter a number40\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('DEAR CUSTOMER, YOU ARE WELCOME TO IVY FARMS; KINDLY FILL OUT THIS FORM')\n",
+        "Customer_Name = input('Please enter your name: ')\n",
+        "CurrentYear = int(input('Please enter the current year: '))\n",
+        "Birthyear = int(input('Please enter your birthyear: '))\n",
+        "age = CurrentYear - Birthyear\n",
+        "print(f'Dear {Customer_Name} aged {age} ')\n",
+        "print('Thank you for Patronising IVY FARMS')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rMqDn56M_sAu",
+        "outputId": "372b3046-f54b-40b7-dce8-bde41e454098"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DEAR CUSTOMER, YOU ARE WELCOME TO IVY FARMS; KINDLY FILL OUT THIS FORM\n",
+            "Please enter your name: MILO\n",
+            "Please enter the current year: 2024\n",
+            "Please enter your birthyear: 2007\n",
+            "Dear MILO aged 17 \n",
+            "Thank you for Patronising IVY FARMS\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
